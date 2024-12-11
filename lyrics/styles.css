@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("https://i.pinimg.com/564x/7d/88/0f/7d880f104a7e57b2af9d0811a0d682a6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.title{
+  background-color: red;
+}
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 400px;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/564x/45/56/58/4556589762ff1a8a91e8b8a44e2aa794.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  color: white;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+ 
+  
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.container,h1{
+  color: white;
+
+
+}
+button:hover {
+  background: rgb(0,128,0);
+  background: linear-gradient(0deg, rgba(0,128,0,1) 0%, rgba(37,137,255,1) 0%, rgba(27,253,255,1) 100%);
+}
+
+#lyrics-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#lyrics {
+  white-space: pre-wrap;
+}
